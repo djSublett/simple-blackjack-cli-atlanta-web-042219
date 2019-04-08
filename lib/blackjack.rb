@@ -36,6 +36,7 @@ def initial_round
   return sum 
 end
 
+
 def hit?(card_total)
   # code hit? here
   prompt_user
@@ -47,8 +48,8 @@ def hit?(card_total)
   else
     invalid_command
   end
-  
 end
+
 
 def invalid_command
   puts "Please enter a valid command"
