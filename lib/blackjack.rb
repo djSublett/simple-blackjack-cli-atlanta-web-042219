@@ -66,7 +66,7 @@ def runner
   # code runner here
   until card_total > 21
     welcome
-    initial_round
+    card_total = initial_round
     hit?
   end 
   
