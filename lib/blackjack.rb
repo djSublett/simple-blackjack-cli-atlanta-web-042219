@@ -64,10 +64,11 @@ end
 
 def runner
   # code runner here
-  
-  welcome
-  initial_round
-  hit?
+  while card_total < 21
+    welcome
+    initial_round
+    hit?
+  end 
   
 end
     
