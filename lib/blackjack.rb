@@ -23,9 +23,9 @@ def get_user_input
   user_choice = gets.chomp
 end
 
-def end_game(number)
+def end_game(card_total)
   # code #end_game here
-  puts "Sorry, you hit #{number}. Thanks for playing!"
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
