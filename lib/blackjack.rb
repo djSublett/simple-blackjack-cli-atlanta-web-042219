@@ -44,7 +44,6 @@ def hit?(card_total)
     card_total
   end
   elsif hit == 'h'
-    
     card_total += deal_card
   end
   else
